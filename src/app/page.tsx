@@ -10,10 +10,10 @@ export default function Home() {
       <div className="SectionContainer">
         <section className="grid grid-cols-1 sm:grid-cols-4">
           <div className="sm:col-span-3 flex flex-col justify-around px-2">
-            <h1 className="text-[50px] text-white font-semibold">
-              AFRICAPRO 2024
+            <h1 className="text-5xl sm:text-7xl uppercase font-bold">
+              AFRIkAPRO 2024
             </h1>
-            <Link href="/2024-afrikapro-entry-form" className="flex border w-fit mt-4 pr-6 space-x-4 cursor-pointer group select-none">
+            <Link href="https://2024.afrikapro.com/2024-afrikapro-entry-form/" className="flex border w-fit mt-4 pr-6 space-x-4 cursor-pointer group select-none">
             <img src="/svgs/button_hover_white.svg" alt="button line" className="w-11 h-auto invisible group-hover:visible globalTransition "/>
               <span className="py-2 group-hover:translate-x-2 globalTransition">
                 2024 Entry Form
