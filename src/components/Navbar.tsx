@@ -69,9 +69,9 @@ const Navbar = () => {
                     </div> 
                     <div className="sm:hidden flex items-center">
                         <label className="swap swap-rotate">
-                            <input type="checkbox" />
-                            <img src="/svg/menu.svg" alt="open menu" loading="lazy" width="50" height="50" decoding="async" data-nimg="1" className="swap-off fill-current w-11 h-11" style={{color:"transparent"}} />
-                            <img src="/svg/menu_close.svg" alt="close menu" loading="lazy" width="50" height="50" decoding="async" data-nimg="1" className="swap-off fill-current w-11 h-11" style={{color:"transparent"}} />
+                            
+                            <img src="/svgs/menu.svg" alt="open menu" loading="lazy" width="50" height="50" decoding="async" data-nimg="1" className="swap-off fill-current w-11 h-11" style={{color:"transparent"}} />
+                            <img src="/svgs/menu_close.svg" alt="close menu" loading="lazy" width="50" height="50" decoding="async" data-nimg="1" className="swap-off hidden fill-current w-11 h-11" style={{color:"transparent"}} />
                         </label>
                     </div>
                     <div className="hidden sm:flex items-center gap-6">
