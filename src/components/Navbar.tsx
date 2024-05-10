@@ -11,7 +11,7 @@ const Navbar = () => {
                     </Link>
                     <div className="hidden sm:block">
                         <nav className="flex flex-col sm:flex-row space-y-10 text-center sm:space-y-0 sm:space-x-8 font-bold text-white text-xl">
-                            <Link href="/contact">
+                            <Link href="/">
                                 <div className="flex flex-col items-center group">
                                     Home
                                     <div className="w-4 border globalTransition group-hover:visible invisible"></div>
