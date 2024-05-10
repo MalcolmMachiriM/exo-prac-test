@@ -10,12 +10,12 @@ export default function Home() {
       <div className="SectionContainer">
         <section className="grid grid-cols-1 sm:grid-cols-4">
           <div className="sm:col-span-3 flex flex-col justify-around px-2">
-            <h1 className="text-5xl sm:text-7xl uppercase font-bold">
+            <h1 className="text-5xl sm:text-7xl text-white uppercase font-bold">
               AFRIkAPRO 2024
             </h1>
             <Link href="https://2024.afrikapro.com/2024-afrikapro-entry-form/" className="flex border w-fit mt-4 pr-6 space-x-4 cursor-pointer group select-none">
             <img src="/svgs/button_hover_white.svg" alt="button line" className="w-11 h-auto invisible group-hover:visible globalTransition "/>
-              <span className="py-2 group-hover:translate-x-2 globalTransition">
+              <span className="py-2 group-hover:translate-x-2 text-white globalTransition">
                 2024 Entry Form
               </span>
               <img src="/svgs/white_arrow_right.svg" alt="arrow" className="w-5 h-auto"/>
@@ -26,7 +26,7 @@ export default function Home() {
                 <div className="absolute h-32 sm:h-40 w-full overflow-hidden">
                   <Image src="/p1.png" alt="pic1" loading="lazy" width="400" height="160" decoding="async" className="object-cover w-full h-full group-hover:scale-125 globalTransition brightness-75 "style={{color:"transparent"}}  />
                 </div>
-                <h3 className="z-10 px-4 text-2xl sm:text-xl font-bold">2025 Shipment Date</h3>
+                <h3 className="z-10 px-4 text-2xl sm:text-xl font-bold text-white">2025 Shipment Date</h3>
                 <span className="z-10 px-4 text-sm text-textGray font-heebo absolute bottom-1 left-0">7 days ago</span>
               </div>
             </Link>
@@ -35,7 +35,7 @@ export default function Home() {
                   <div className="absolute h-32 sm:h-40 w-full overflow-hidden">
                     <Image src="/p2.jpeg" alt="pic1" loading="lazy" width="400" height="160" decoding="async" className="object-cover w-full h-full group-hover:scale-125 globalTransition brightness-75 "style={{color:"transparent"}}  />
                   </div>
-                  <h3 className="z-10 px-4 text-2xl sm:text-xl font-bold">2024 season launch</h3>
+                  <h3 className="z-10 px-4 text-2xl text-white sm:text-xl font-bold">2024 season launch</h3>
                   <span className="z-10 px-4 text-sm text-textGray font-heebo absolute bottom-1 left-0">8 days ago</span>
                 </div>
               </Link>
@@ -44,7 +44,7 @@ export default function Home() {
                   <div className="absolute h-32 sm:h-40 w-full overflow-hidden">
                     <Image src="/p3.jpeg" alt="pic2" loading="lazy" width="400" height="160" decoding="async" className="object-cover w-full h-full group-hover:scale-125 globalTransition brightness-75 "style={{color:"transparent"}}  />
                   </div>
-                  <h3 className="z-10 px-4 text-2xl sm:text-xl font-bold">Final dates announcements</h3>
+                  <h3 className="z-10 px-4 text-2xl sm:text-xl text-white font-bold">Final dates announcements</h3>
                   <span className="z-10 px-4 text-sm text-textGray font-heebo absolute bottom-1 left-0">12 days ago</span>
                 </div>
               </Link>
@@ -160,7 +160,7 @@ export default function Home() {
                 <Image src="/images/green_blazer.png" alt="competition icon" width={50} height={50} className="rounded-full w-20 h-20 object-contain"></Image>
               </div> */}
               <Link href="" className="py-4 bg-black flex justify-center my-2 mx-4 sm:mx-0 globalBrownHover cursor-pointer select-none">
-                <span className="mr-8"> View Full Table</span>
+                <span className="mr-8 text-white"> View Full Table</span>
                 <Image src="/svgs/white_arrow_right.svg" alt="arrow" width={2.5} height={2.5} className="w-5 h-auto"/>
               </Link>
             </aside>
