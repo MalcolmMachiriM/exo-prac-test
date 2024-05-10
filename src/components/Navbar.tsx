@@ -11,55 +11,55 @@ const Navbar = () => {
                     </Link>
                     <div className="hidden sm:block">
                         <nav className="flex flex-col sm:flex-row space-y-10 text-center sm:space-y-0 sm:space-x-8 font-bold text-white text-xl">
-                            <Link href="/">
+                            <Link href="/contact">
                                 <div className="flex flex-col items-center group">
                                     Home
                                     <div className="w-4 border globalTransition group-hover:visible invisible"></div>
                                 </div>
                             </Link>
-                            <Link href="/">
+                            <Link href="/contact">
                                 <div className="flex flex-col items-center group">
                                     Ranking
                                     <div className="w-4 border globalTransition group-hover:visible invisible"></div>
                                 </div>
                             </Link>
-                            <Link href="/">
+                            <Link href="/contact">
                                 <div className="flex flex-col items-center group">
                                     Teams
                                     <div className="w-4 border globalTransition group-hover:visible invisible"></div>
                                 </div>
                             </Link>
-                            <Link href="/">
+                            <Link href="/contact">
                                 <div className="flex flex-col items-center group">
                                     Blog
                                     <div className="w-4 border globalTransition group-hover:visible invisible"></div>
                                 </div>
                             </Link>
-                            <Link href="/">
+                            <Link href="/contact">
                                 <div className="flex flex-col items-center group">
                                     Gallery
                                     <div className="w-4 border globalTransition group-hover:visible invisible"></div>
                                 </div>
                             </Link>
-                            <Link href="/">
+                            <Link href="/contact">
                                 <div className="flex flex-col items-center group">
                                     Auction
                                     <div className="w-4 border globalTransition group-hover:visible invisible"></div>
                                 </div>
                             </Link>
-                            <Link href="/">
+                            <Link href="/contact">
                                 <div className="flex flex-col items-center group">
                                     Contact
                                     <div className="w-4 border globalTransition group-hover:visible invisible"></div>
                                 </div>
                             </Link>
-                            <Link href="/">
+                            <Link href="/contact">
                                 <div className="flex flex-col items-center group">
                                     T & C &apos; s
                                     <div className="w-4 border globalTransition group-hover:visible invisible"></div>
                                 </div>
                             </Link>
-                            <Link href="/">
+                            <Link href="/contact">
                                 <div className="flex flex-col items-center group">
                                     Portal
                                     <div className="w-4 border globalTransition group-hover:visible invisible"></div>
